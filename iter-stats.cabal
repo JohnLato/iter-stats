@@ -4,13 +4,13 @@
 name:                iter-stats
 version:             0.1.0.1
 synopsis:            iteratees for statistical processing
--- description:         
+description:         efficient statistical values of data streams
 homepage:            https://github.com/JohnLato/iter-stats
 license:             BSD3
 license-file:        LICENSE
 author:              John W. Lato
 maintainer:          jwlato@gmail.com
--- copyright:           
+copyright:           John W. Lato, 2012
 category:            Math
 build-type:          Simple
 cabal-version:       >=1.8
