@@ -53,7 +53,7 @@ someRollingFunction
     -> (s -> summary)
     -> Enumeratee s [summary] m a
 someRollingFunction count mkSummary =
-    convStream (roll' count (count-1))
+    convStream (roll' count 1)
     ><> mapStream mkSummary
 {-# INLINABLE someRollingFunction #-}
 
