@@ -48,3 +48,7 @@ Test-suite iter-stats-tests
     iteratee,
     ListLike,
     mtl
+
+source-repository head
+  type:                git
+  location:            git://github.com/JohnLato/iter-stats.git
