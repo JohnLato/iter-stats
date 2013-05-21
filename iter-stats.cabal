@@ -39,9 +39,9 @@ Test-suite iter-stats-tests
   Build-depends:
     HUnit                      >= 1.2 && < 1.3,
     statistics,
-    test-framework             >= 0.4 && < 0.7,
-    test-framework-hunit       >= 0.2 && < 0.3,
-    test-framework-quickcheck2 >= 0.2 && < 0.3,
+    test-framework             >= 0.4 && < 0.9,
+    test-framework-hunit       >= 0.2 && < 0.4,
+    test-framework-quickcheck2 >= 0.2 && < 0.4,
     vector                     >= 0.9,
     base,
     heap,
