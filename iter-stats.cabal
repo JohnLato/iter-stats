@@ -25,7 +25,7 @@ library
                        heap == 1.*,
                        iteratee >=0.8,
                        ListLike >=3,
-                       mtl ==2.1.*
+                       mtl >=2.1 && < 2.3
   hs-source-dirs:      src
 
 Test-suite iter-stats-tests
