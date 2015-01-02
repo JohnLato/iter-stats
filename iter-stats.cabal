@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                iter-stats
-version:             0.1.0.3
+version:             0.1.0.4
 synopsis:            iteratees for statistical processing
 description:         efficient statistical values of data streams
 homepage:            https://github.com/JohnLato/iter-stats
