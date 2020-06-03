@@ -21,7 +21,7 @@ library
                        Statistics.Iteratee.Sample,
                        Statistics.Iteratee.Uniform
   -- other-modules:
-  build-depends:       base >=4.5 && < 4.13,
+  build-depends:       base >=4.5 && < 4.14,
                        heap == 1.*,
                        iteratee >=0.8,
                        ListLike >=3,
